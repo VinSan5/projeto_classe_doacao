@@ -175,34 +175,34 @@ namespace projeto_donation_tier
 
             // designação de grupo
             if (valor_doacao < 25)
-            {
+                {
                 Console.WriteLine("Obrigado! Agora você é um doador classe Bronze!");
-            }
+                }
             else
                 if (valor_doacao < 50)
-            {
+                    {
                 Console.WriteLine("Obrigado! Agora você é um doador classe Prata!");
-            }
+                    }
             else
                     if (valor_doacao < 100)
-            {
+                        {
                 Console.WriteLine("Obrigado! Agora você é um doador classe Ouro!");
-            }
+                        }
             else
                         if (valor_doacao < 500)
-            {
+                            {
                 Console.WriteLine("Obrigado! Agora você é um doador classe Platina!");
-            }
+                            }
             else
                             if (valor_doacao < 999.99)
-            {
+                            {
                 Console.WriteLine("Obrigado! Agora você é um doador classe Diamante!");
-            }
+                                }
             else
                                 if (valor_doacao >= 1000)
-            {
+                                {
                 Console.WriteLine("\nObrigado! Agora você é um doador classe Diamante!");
-            }
+                                }
 
             if (conf_doac == 1)
             {
